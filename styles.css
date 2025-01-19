@@ -424,7 +424,7 @@ iframe {
   margin-top: 20px;
 }
 
-/* Ensure the slider content is responsive */
+/* Ensure the slider content is responsive (Slider text size and format for Mobile Screens upto 768pixels width )*/
 @media screen and (max-width: 768px) {
   .slide-content {
     flex-direction: column;
@@ -432,13 +432,13 @@ iframe {
     text-align: center;
   }
   .slide-text h3 {
-  font-size: 1rem;
+  font-size: 1.8rem;
   margin-bottom: 1rem;
   color: #333;
   }
 
   .slide-text p {
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   line-height: 1.8;
   color: #555;
   }
@@ -450,5 +450,11 @@ iframe {
 
   .slide-text {
     max-width: 90%;
+  }
+  .swiper-container {
+  width: 100%;
+  height: calc(100vh - 60px); /* Adjust height to fill the screen below the green header */
+  margin-top: -20px; /* Ensure it touches the green header */
+  margin-bottom:-220px;
   }
 }
