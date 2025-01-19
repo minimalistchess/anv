@@ -345,23 +345,25 @@ iframe {
     padding: 0 0.5rem; /* Add padding to prevent text from touching the card edges */
     line-height: 1.4; /* Adjust line height for readability */
   }
-	/* Ensure the slider content is responsive */
-.slide-content {
+  iframe {
+    height: 1100px;
+  }
+}
+
+/* Ensure the slider content is responsive */
+@media screen and (max-width: 768px) {
+  .slide-content {
     flex-direction: column;
     gap: 20px;
     text-align: center;
   }
-	
-.slide-content img {
+
+  .slide-content img {
     width: 80%;
     height: auto;
   }
 
-.slide-text {
+  .slide-text {
     max-width: 90%;
-  }
-}
-  iframe {
-    height: 1100px;
   }
 }
