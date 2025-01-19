@@ -93,6 +93,7 @@ section h2 {
   width: 100%;
   height: calc(100vh - 60px); /* Adjust height to fill the screen below the green header */
   margin-top: -20px; /* Ensure it touches the green header */
+  margin-bottom:-220px;
 }
 
 .swiper-slide {
@@ -390,7 +391,7 @@ iframe {
   gap: 40px;
   max-width: 1400px;
   margin: auto;
-  height: 80%;
+  height: 70%;
 }
 
 .slide-content img {
