@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  background: #b10b47;
+  background: #4CAF50;
   color: white;
   text-align: center;
   padding: 2rem 1rem;
@@ -86,6 +86,80 @@ section h2 {
   color: #555;
   line-height: 1.5;
 }
+
+/* Swiper Styles */
+/* Adjusting the Swiper Container */
+.swiper-container {
+  width: 100%;
+  height: calc(100vh - 60px); /* Adjust height to fill the screen below the green header */
+  margin-top: -20px; /* Ensure it touches the green header */
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.slide-content {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 1400px;
+  margin: auto;
+  height: 100%;
+}
+
+.slide-content img {
+  width: 1515px; /* Larger image */
+  height: 534px; /* Adjust height proportionally */
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.slide-text {
+  max-width: 700px;
+  text-align: left;
+}
+
+.slide-text h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.slide-text p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+.swiper-pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Ensure the slider content is responsive */
+@media screen and (max-width: 768px) {
+  .slide-content {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .slide-content img {
+    width: 80%;
+    height: auto;
+  }
+
+  .slide-text {
+    max-width: 90%;
+  }
+}
+
+
 
 #highlight .highlight-card {
   background: #fff;
@@ -194,59 +268,6 @@ footer {
   padding: 1rem 0;
 }
 
-/* Adjusting the Swiper Container */
-.swiper-container {
-  width: 100%;
-  height: calc(100vh - 60px); /* Adjust height to fill the screen below the green header */
-  margin-top: -20px; /* Ensure it touches the green header */
-}
-
-.swiper-slide {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-
-.slide-content {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  max-width: 1400px;
-  margin: auto;
-  height: 100%;
-}
-
-.slide-content img {
-  width: 500px; /* Larger image */
-  height: 350px; /* Adjust height proportionally */
-  border-radius: 10px;
-  object-fit: cover;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-.slide-text {
-  max-width: 700px;
-  text-align: left;
-}
-
-.slide-text h3 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  color: #333;
-}
-
-.slide-text p {
-  font-size: 1.2rem;
-  line-height: 1.8;
-  color: #555;
-}
-
-.swiper-pagination {
-  text-align: center;
-  margin-top: 20px;
-}
-
 iframe {
 	width:100%;
     height: 980px;
@@ -336,7 +357,7 @@ iframe {
     padding: 0.5rem 0;
   }
     .about-content img {
-    max-width: 100%; /* Ensure the image does not span the full width */
+    max-width: 90%; /* Ensure the image does not span the full width */
     margin: 0 auto; /* Center the image horizontally */
     box-sizing: border-box; /* Include padding in the total width */
   }
@@ -348,6 +369,58 @@ iframe {
   iframe {
     height: 1100px;
   }
+}
+/* Adjusting the Swiper Container */
+.swiper-container {
+  width: 100%;
+  height: calc(100vh - 60px); /* Adjust height to fill the screen below the green header */
+  margin-top: -20px; /* Ensure it touches the green header */
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.slide-content {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 1400px;
+  margin: auto;
+  height: 100%;
+}
+
+.slide-content img {
+  width: 1515px; /* Larger image */
+  height: 534px; /* Adjust height proportionally */
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.slide-text {
+  max-width: 700px;
+  text-align: left;
+}
+
+.slide-text h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.slide-text p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+.swiper-pagination {
+  text-align: center;
+  margin-top: 20px;
 }
 
 /* Ensure the slider content is responsive */
