@@ -54,6 +54,12 @@ section h2 {
   gap: 1.5rem;
 }
 
+#gallery {
+  margin-bottom: 0; /* Remove unnecessary spacing */
+  padding-bottom: 20px; /* Adjust padding if needed */
+}
+
+
 .creation {
   background: #f9f9f9;
   padding: 1rem;
@@ -93,6 +99,8 @@ section h2 {
   width: 100%;
   height: calc(100vh - 60px); /* Adjust height to fill the screen below the green header */
   margin-top: -20px; /* Ensure it touches the green header */
+  position: relative; /* Needed for positioning child elements like pagination */
+  margin-bottom: 0; /* Prevent extra spacing */
 }
 
 .swiper-slide {
@@ -138,7 +146,11 @@ section h2 {
 
 .swiper-pagination {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 0; /* Remove unnecessary margin */
+  position: absolute;
+  bottom: 20px; /* Adjust to place it closer to the slider */
+  left: 0;
+  right: 0;
 }
 
 /* Ensure the slider content is responsive */
