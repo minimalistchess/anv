@@ -408,14 +408,14 @@ iframe {
 }
 
 .slide-text h3 {
-  font-size: 1rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
   color: #333;
 }
 
 .slide-text p {
-  font-size: 0.2rem;
-  line-height: 1;
+  font-size: 1.2rem;
+  line-height: 1.8;
   color: #555;
 }
 
@@ -430,6 +430,17 @@ iframe {
     flex-direction: column;
     gap: 20px;
     text-align: center;
+  }
+  .slide-text h3 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #333;
+  }
+
+  .slide-text p {
+  font-size: 0.9rem;
+  line-height: 1.8;
+  color: #555;
   }
 
   .slide-content img {
