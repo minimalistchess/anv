@@ -440,8 +440,9 @@ iframe {
 
   .slide-text p {
   font-size: 1.4rem;
-  line-height: 1rem;
+  line-height: 1.3rem;
   color: #555;
+  text-align: center;
   }
 
   .slide-content img {
