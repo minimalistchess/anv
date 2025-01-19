@@ -408,14 +408,14 @@ iframe {
 }
 
 .slide-text h3 {
-  font-size: 2rem;
+  font-size: 1rem;
   margin-bottom: 1rem;
   color: #333;
 }
 
 .slide-text p {
-  font-size: 1.2rem;
-  line-height: 1.8;
+  font-size: 0.2rem;
+  line-height: 1;
   color: #555;
 }
 
