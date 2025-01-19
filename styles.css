@@ -125,17 +125,17 @@ section h2 {
   text-align: left;
 }
 
-/*.slide-text h3 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+.slide-text h3 {
+  font-size: 1rem;
+  margin-bottom: 0.9rem;
   color: #333;
-}*/
+}
 
-/*.slide-text p {
-  font-size: 0.2rem;
-  line-height: 1.8;
+.slide-text p {
+  font-size: 0.9rem;
+  line-height: 0.8;
   color: #555;
-}*/
+}
 
 .swiper-pagination {
   text-align: center;
@@ -370,19 +370,8 @@ iframe {
   iframe {
     height: 1100px;
   }
-  .slide-text h3 {
-  font-size: 1rem;
-  margin-bottom: 1rem;
-  color: #333;
-  }
-
-.slide-text p {
-  font-size: 0.9rem;
-  line-height: 0.8;
-  color: #555;
-  }
 }
-/* Adjusting the Swiper Container Back to main desktop container, out of media for mobile, Notice brace alignment*/ 
+/* Adjusting the Swiper Container */ 
 .swiper-container {
   width: 100%;
   height: calc(100vh - 60px); /* Adjust height to fill the screen below the green header */
