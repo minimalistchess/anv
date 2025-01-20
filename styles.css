@@ -248,7 +248,6 @@ section h2 {
 
 .about-content img {
   width: 400px;
-  height: 300px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -362,6 +361,7 @@ iframe {
     margin: 0 auto; /* Center the image horizontally */
     box-sizing: border-box; /* Include padding in the total width */
     width: 400px;
+    height: 300px;
   }
   .about-content p {
     font-size: 0.9rem; /* Reduce font size for smaller screens */
