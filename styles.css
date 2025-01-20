@@ -361,7 +361,6 @@ iframe {
     margin: 0 auto; /* Center the image horizontally */
     box-sizing: border-box; /* Include padding in the total width */
     width: 400px;
-    height: 300px;
   }
   .about-content p {
     font-size: 0.9rem; /* Reduce font size for smaller screens */
