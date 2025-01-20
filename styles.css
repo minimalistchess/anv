@@ -358,7 +358,7 @@ iframe {
     padding: 0.5rem 0;
   }
     .about-content img {
-    max-width: 90%; /* Ensure the image does not span the full width */
+    max-width: 100%; /* Ensure the image does not span the full width */
     margin: 0 auto; /* Center the image horizontally */
     box-sizing: border-box; /* Include padding in the total width */
   }
