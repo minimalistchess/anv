@@ -338,7 +338,13 @@ iframe {
     padding: 1rem; /* Maintain comfortable padding */
   }
   .highlight-card img{
-    margin-bottom:-6rem;
+    margin-bottom:-4rem;
+  }
+  .highlight-card h3{
+    margin-bottom:-6.5rem;
+  }
+ .highlight-card p{
+    margin-bottom:3rem;
   }
   
   .about-wrapper{
