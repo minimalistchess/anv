@@ -474,14 +474,3 @@ iframe {
   }
 }
 
-@media screen and (min-width: 600px) and (max-width: 1024px) {
-  .creation {
-    margin: 0 auto; /* Center the cards horizontally */
-    max-width: 90%; /* Make sure cards are not too wide */
-  }
-
-  .gallery {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem; /* Adjust spacing between cards */
-  }
-}
