@@ -337,6 +337,9 @@ iframe {
     margin: 10px auto; /* Center each card with auto margins */
     padding: 1rem; /* Maintain comfortable padding */
   }
+  .highlight-card img{
+    margin-bottom:-6rem;
+  }
   
   .about-wrapper{
     display: flex;
