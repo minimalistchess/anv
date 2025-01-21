@@ -309,6 +309,7 @@ iframe {
   .gallery {
     grid-template-columns: 1fr;
     gap: 1rem;
+    margin-left:74px;
   }
 
   .creation img {
