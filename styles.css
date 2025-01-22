@@ -1,12 +1,5 @@
 
 /* Make sure Swiper and all elements use Arial or other system fonts */
-* {
-  font-family: Arial, sans-serif !important;
-}
-
-.swiper-container, .swiper-slide, .swiper-pagination {
-  font-family: Arial, sans-serif !important;
-}
 /* Add a media query for smaller screens */
 @media (max-width: 600px) {
   #contact form {
